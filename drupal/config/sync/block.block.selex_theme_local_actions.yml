@@ -1,0 +1,20 @@
+uuid: c9b32cc7-66bd-4dda-bcbe-d6d86aefc2a2
+langcode: en
+status: false
+dependencies:
+  theme:
+    - selex_theme
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: selex_theme_local_actions
+theme: selex_theme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

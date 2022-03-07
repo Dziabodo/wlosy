@@ -1,0 +1,36 @@
+uuid: e9f22900-65ef-41f0-b5b3-95a4745a30e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.header_slider.field_header_images
+    - field.field.paragraph.header_slider.field_header_text
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.header_slider
+  module:
+    - image
+    - text
+id: paragraph.header_slider.default
+targetEntityType: paragraph
+bundle: header_slider
+mode: default
+content:
+  field_header_images:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_header_text:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

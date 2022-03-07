@@ -1,0 +1,22 @@
+uuid: 30d84d98-9b3d-48fb-b0d9-464e4f53a4f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: 82Ht9BVz_61ZATsrt_9TF9ZVdrrzaDjbXabQ1A8U4O8
+id: onepage_zymphonies_theme_content
+theme: onepage_zymphonies_theme
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

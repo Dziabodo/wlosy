@@ -1,0 +1,4 @@
+services:
+  highlight_block.highlight_node:
+    class: Drupal\highlight_block\Services\FetchHighlightNodes
+    arguments: ['@entity_type.manager']

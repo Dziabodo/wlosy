@@ -1,0 +1,14 @@
+/* line 1, ../sass/menu.scss */
+#block-selex-theme-main-menu {
+  background: grey;
+}
+/* line 3, ../sass/menu.scss */
+#block-selex-theme-main-menu li {
+  display: inline-block;
+  padding: 20px;
+}
+/* line 6, ../sass/menu.scss */
+#block-selex-theme-main-menu li a {
+  color: white;
+  text-decoration: none;
+}

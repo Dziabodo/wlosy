@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function highlight_block_theme() {
+  return [
+    'highlight_block' => [
+      'variables' => [
+        'text' => NULL,
+        'images' => []
+      ],
+    ],
+  ];
+}

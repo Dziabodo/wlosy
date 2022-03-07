@@ -1,0 +1,22 @@
+uuid: 36a38b88-c93f-476a-b928-2643890960b3
+langcode: en
+status: false
+dependencies:
+  theme:
+    - selex_theme
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: selex_theme_local_tasks
+theme: selex_theme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }
