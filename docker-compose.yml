@@ -1,0 +1,48 @@
+version: '2'
+# define all services
+services:
+  blaupause:
+    container_name: wlosy
+    # we want to use the image which is build from our Dockerfile
+    build: .
+    # apache is running on port 80 but we want to expose this to port 4000 on our local machine
+    ports:
+      - "70:80"
+    # we depending on the mysql backend
+    depends_on:
+      - db
+    # we mount the working dir into the container, handy for development
+    volumes:
+      - "./drupal:/var/www/"
+    tty: true
+    networks:
+      - wlosy
+  db:
+    # we use the mysql base image, version 5.6.36
+    image: mysql:5.7
+    # we mount a datavolume to make sure we don't loose data
+    volumes:
+      - "./data/db/mysql:/var/lib/mysql"
+    restart: always
+    command: [
+      'mysqld',
+      '--character-set-server=utf8',
+      '--collation-server=utf8_general_ci',
+      '--max_allowed_packet=1073741824'
+    ]
+    # setting some envvars to create the DB
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    networks:
+      - wlosy
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 60:8080
+    networks:
+      - wlosy
+
+networks:
+  wlosy:
