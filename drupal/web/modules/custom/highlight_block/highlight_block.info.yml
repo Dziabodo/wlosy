@@ -1,0 +1,7 @@
+package: Highlight block
+name: Highlight block
+version: 1.0.0
+description: Highlight block
+
+type: module
+core_version_requirement: ^8.8 || ^9

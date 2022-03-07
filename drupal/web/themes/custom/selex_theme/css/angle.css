@@ -1,0 +1,31 @@
+/* line 1, ../sass/angle.scss */
+.angle-view {
+  overflow: hidden;
+  width: 600px;
+  margin: 10px auto;
+  border: 5px solid #CECECE;
+}
+
+/* line 7, ../sass/angle.scss */
+.angle-view ul, #angle-view li {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 11, ../sass/angle.scss */
+.angle-view li {
+  list-style: none;
+}
+
+/* line 12, ../sass/angle.scss */
+.angle-view ul {
+  width: 600px;
+  height: 330px;
+}
+
+/* line 16, ../sass/angle.scss */
+.angle-view img {
+  width: 90%;
+  display: block;
+  margin: 18px auto;
+}

@@ -1,0 +1,22 @@
+uuid: e12d80c0-3723-4f51-83da-c0dc6eaf7f6f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - selex_theme
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: selex_theme_breadcrumbs
+theme: selex_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

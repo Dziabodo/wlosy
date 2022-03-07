@@ -1,0 +1,22 @@
+uuid: ddfac32a-31bd-4085-9511-20a79e8b27c2
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - selex_theme
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: selex_theme_help
+theme: selex_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

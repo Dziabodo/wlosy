@@ -1,0 +1,22 @@
+uuid: 85124b49-d199-4a29-8ed8-2c423d92abab
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: E3mMHXjKTgXvkLtB2g1V5xNa5nLptiqWEAa5TGipJP8
+id: onepage_zymphonies_theme_breadcrumbs
+theme: onepage_zymphonies_theme
+region: auto_hidden_block
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

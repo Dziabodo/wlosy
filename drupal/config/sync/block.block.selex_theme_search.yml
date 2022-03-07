@@ -1,0 +1,23 @@
+uuid: b25a9a6f-11d9-465c-bc4f-c31d652dffd9
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - selex_theme
+_core:
+  default_config_hash: jQ-C8l3dJPqYCGST1e-kSjR14PDP4wq-iFbp8dMFcRo
+id: selex_theme_search
+theme: selex_theme
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 0cc1b476-35c6-434d-b1ae-78afcccd8027
+langcode: en
+status: true
+dependencies:
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: s_nu0O3_OAmdn8L6gbkZyk2QA-f1XSKMg4oe9VilAPE
+id: onepage_zymphonies_theme_local_actions
+theme: onepage_zymphonies_theme
+region: auto_hidden_block
+weight: -1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
