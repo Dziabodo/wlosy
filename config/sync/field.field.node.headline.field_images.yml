@@ -1,0 +1,31 @@
+uuid: 59903a0f-2d26-4191-ae47-a981deef231e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_images
+    - node.type.headline
+    - paragraphs.paragraphs_type.header_slider
+  module:
+    - entity_reference_revisions
+id: node.headline.field_images
+field_name: field_images
+entity_type: node
+bundle: headline
+label: Images
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      header_slider: header_slider
+    negate: 0
+    target_bundles_drag_drop:
+      header_slider:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function highlight_block_theme() {
+  return [
+    'highlight_block' => [
+      'variables' => [
+        'text' => NULL,
+        'images' => []
+      ],
+    ],
+  ];
+}
+
+function highlight_block_form_alter($form, $form_state, $formId) {
+  if($formId === 'webform_submission_contact_add_form ') {
+    dd($form);
+  }
+}
+
+
+/**
+ * Allow modules to alter a CAPTCHA.
+ *
+ * @param array $captcha
+ *   The array returned by hook_captcha().
+ * @param array $info
+ *   Array of information about the CAPTCHA.
+ */
+function highlight_block_captcha_alter(array &$captcha, array $info) {
+    $captcha['form']['captcha_response']['#description'] = t('Solve this simple math problem and enter the result.');
+}

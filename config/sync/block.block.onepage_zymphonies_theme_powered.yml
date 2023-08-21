@@ -1,0 +1,22 @@
+uuid: 5e432dfe-d11e-4fbf-9705-43aa37a5b556
+langcode: pl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: VUmFdpIlx9dzhqAOCnXnbQ7VQy_ivzUrEHBFV6bOSJw
+id: onepage_zymphonies_theme_powered
+theme: onepage_zymphonies_theme
+region: auto_hidden_block
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

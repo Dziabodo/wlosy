@@ -1,0 +1,21 @@
+uuid: c5c79d25-a6ac-4b28-98ea-106be359f9f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_header_text
+    - paragraphs.paragraphs_type.header_slider
+  module:
+    - text
+id: paragraph.header_slider.field_header_text
+field_name: field_header_text
+entity_type: paragraph
+bundle: header_slider
+label: 'Header Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

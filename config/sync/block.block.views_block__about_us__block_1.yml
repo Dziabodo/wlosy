@@ -1,0 +1,29 @@
+uuid: 9ca490f5-e278-4bca-846e-8d42b9f34028
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.about_us_
+  module:
+    - system
+    - views
+  theme:
+    - selex_theme
+id: views_block__about_us__block_1
+theme: selex_theme
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:about_us_-block_1'
+settings:
+  id: 'views_block:about_us_-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/front"
+    negate: false

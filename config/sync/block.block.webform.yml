@@ -1,0 +1,30 @@
+uuid: a9a8d207-be44-4408-b620-1642506fa5a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+  module:
+    - system
+    - webform
+  theme:
+    - selex_theme
+id: webform
+theme: selex_theme
+region: content
+weight: -5
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Contact
+  label_display: visible
+  provider: webform
+  webform_id: contact
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/front"

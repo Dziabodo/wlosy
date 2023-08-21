@@ -1,0 +1,7 @@
+package: Front Page
+name: Front Page
+version: 1.0.0
+description: Front Page
+
+type: module
+core_version_requirement: ^8.8 || ^9

@@ -1,0 +1,29 @@
+uuid: ed3a8a09-6083-436a-b3d1-941a2bdc6e06
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.purchase_and_financing_
+  module:
+    - system
+    - views
+  theme:
+    - selex_theme
+id: views_block__purchase_and_financing__block_1
+theme: selex_theme
+region: content
+weight: -9
+provider: null
+plugin: 'views_block:purchase_and_financing_-block_1'
+settings:
+  id: 'views_block:purchase_and_financing_-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/front"
+    negate: false

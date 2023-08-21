@@ -1,0 +1,20 @@
+uuid: fbfbbd36-b3a5-4c4e-ae5b-4cf09f66aaa6
+langcode: pl
+status: true
+dependencies:
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: 1VCCWnmF208UeT7t1w_puegRLueGO9a2b7mWIHRIbNA
+id: onepage_zymphonies_theme_page_title
+theme: onepage_zymphonies_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

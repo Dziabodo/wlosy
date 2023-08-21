@@ -1,0 +1,29 @@
+uuid: c8bca322-a26d-44bf-8e9b-9410317847ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.training_system_and_consulting
+  module:
+    - system
+    - views
+  theme:
+    - selex_theme
+id: views_block__training_system_and_consulting_block_1
+theme: selex_theme
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:training_system_and_consulting-block_1'
+settings:
+  id: 'views_block:training_system_and_consulting-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/front"
+    negate: false

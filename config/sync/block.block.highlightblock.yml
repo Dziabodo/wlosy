@@ -1,0 +1,25 @@
+uuid: d44c05ee-a2a3-4686-8b0f-7e3f6f4634e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - highlight_block
+    - system
+  theme:
+    - selex_theme
+id: highlightblock
+theme: selex_theme
+region: content
+weight: -11
+provider: null
+plugin: highlight_block
+settings:
+  id: highlight_block
+  label: 'Highlight Block'
+  provider: highlight_block
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/front"
+    negate: false

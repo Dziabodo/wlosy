@@ -1,0 +1,7 @@
+front_page.front:
+  path: '/front'
+  defaults:
+    _controller: '\Drupal\front_page\Controller\FrontPageController::front'
+    _title: 'Selex'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,20 @@
+elements: |
+  name:
+    '#title': 'Your Name'
+  email:
+    '#title': 'Your Email'
+  subject:
+    '#title': Subject
+  message:
+    '#title': Message
+  actions:
+    '#submit__label': Send
+settings: {  }
+handlers:
+  email_confirmation:
+    settings:
+      subject: '[webform_submission:values:subject:raw]'
+      body: '[webform_submission:values:message:value]'
+  email_notification:
+    settings:
+      body: '[webform_submission:values:message:value]'

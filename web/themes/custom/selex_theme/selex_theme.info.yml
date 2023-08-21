@@ -1,0 +1,32 @@
+name: Selex Theme
+type: theme
+base theme: false
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - selex_theme/base
+  - selex_theme/angle
+  - selex_theme/sticky
+  - selex_theme/custom
+  - selex_theme/jquery_ui
+  - selex_theme/jquery_visible
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - selex_theme/user
+  core/drupal.dropbutton:
+    - selex_theme/dropbutton
+  core/drupal.dialog:
+    - selex_theme/dialog
+  file/drupal.file:
+    - selex_theme/file
+  core/drupal.progress:
+    - selex_theme/progress
+  media/media_embed_ckeditor_theme:
+    - selex_theme/media_embed_ckeditor_theme
+  media_library/view:
+    - selex_theme/media_library
+  media_library/widget:
+    - selex_theme/media_library
+ckeditor_stylesheets:
+  - css/components/media-embed-error.css

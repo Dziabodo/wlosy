@@ -1,0 +1,18 @@
+uuid: 76277801-200d-46c8-bebd-6676a8970818
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.headline
+id: node.headline.created
+field_name: created
+entity_type: node
+bundle: headline
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

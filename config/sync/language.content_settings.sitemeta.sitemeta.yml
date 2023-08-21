@@ -1,0 +1,11 @@
+uuid: 4402c896-7ba4-4e25-bcfc-be3bdc478cf8
+langcode: en
+status: true
+dependencies:
+  module:
+    - sitemeta
+id: sitemeta.sitemeta
+target_entity_type_id: sitemeta
+target_bundle: sitemeta
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,464 @@
+/* vietnamese */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v23/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMlhLzTs.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v23/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMhhLzTs.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v23/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMZhLw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* line 27, ../sass/custom.scss */
+body {
+  font-family: 'Josefin Sans', Times, serif;
+  font-size: 20px;
+  margin: -16px auto;
+  padding: 0;
+  border: 0;
+  background-color: #ffffff;
+  background-image: url("../images/background-up.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: fixed;
+  background-size: 600px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+/* line 43, ../sass/custom.scss */
+main {
+  background-image: url("../images/background-down.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  background-attachment: fixed;
+  text-transform: none;
+}
+
+/* line 51, ../sass/custom.scss */
+h2 {
+  text-transform: uppercase;
+}
+
+/* line 55, ../sass/custom.scss */
+#sliding-popup {
+  background: #aaaeb0 !important;
+}
+/* line 57, ../sass/custom.scss */
+#sliding-popup #popup-text {
+  max-width: 70%;
+  line-height: 0.4;
+  text-transform: none !important;
+}
+/* line 61, ../sass/custom.scss */
+#sliding-popup #popup-text h2 {
+  font-size: 16px;
+  text-transform: none !important;
+}
+/* line 65, ../sass/custom.scss */
+#sliding-popup #popup-text p {
+  font-size: 16px;
+}
+
+/* line 71, ../sass/custom.scss */
+#sliding-popup #popup-buttons button {
+  background: #aaaeb0;
+  text-shadow: none;
+  box-shadow: none;
+  color: white;
+  border: none;
+}
+/* line 77, ../sass/custom.scss */
+#sliding-popup #popup-buttons button:hover {
+  color: #ff8000;
+}
+
+/* line 83, ../sass/custom.scss */
+.form-required::after {
+  display: none;
+}
+
+/* line 86, ../sass/custom.scss */
+#block-highlightblock {
+  height: auto;
+  display: block;
+}
+
+/* line 90, ../sass/custom.scss */
+#block-views-block-about-us-block-1 {
+  height: auto;
+  display: block;
+}
+
+/* line 94, ../sass/custom.scss */
+#block-views-block-purchase-and-financing-block-1 {
+  height: auto;
+  display: block;
+}
+
+/* line 98, ../sass/custom.scss */
+#block-views-block-technologie-i-innowacje-block-1 {
+  height: auto;
+  display: block;
+}
+
+/* line 102, ../sass/custom.scss */
+#block-views-block-training-system-and-consulting-block-1 {
+  height: auto;
+  display: block;
+}
+
+/* line 106, ../sass/custom.scss */
+#block-views-block-cooperation-and-partners-block-1 {
+  height: auto;
+  display: block;
+}
+
+/* line 110, ../sass/custom.scss */
+.layout-content {
+  width: 75%;
+  margin: auto;
+}
+
+/* line 114, ../sass/custom.scss */
+.text {
+  display: inline-flex;
+  vertical-align: top;
+}
+
+/* line 120, ../sass/custom.scss */
+.field-content img {
+  width: 100%;
+  height: 100%;
+}
+/* line 124, ../sass/custom.scss */
+.field-content .marka {
+  vertical-align: middle;
+}
+/* line 126, ../sass/custom.scss */
+.field-content .marka img {
+  width: 150px;
+}
+/* line 130, ../sass/custom.scss */
+.field-content p {
+  text-align: justify;
+}
+/* line 132, ../sass/custom.scss */
+.field-content p a {
+  colo: black;
+}
+/* line 134, ../sass/custom.scss */
+.field-content p a:hover {
+  color: #ff8000;
+}
+
+/* line 142, ../sass/custom.scss */
+#block-webform .webform-submission-form {
+  width: 75%;
+  margin: auto;
+}
+/* line 145, ../sass/custom.scss */
+#block-webform .webform-submission-form #captcha {
+  border: none;
+  text-align: center;
+}
+/* line 150, ../sass/custom.scss */
+#block-webform .webform-submission-form #captcha .details-wrapper .form-item .form-required {
+  width: auto;
+  display: block;
+}
+
+/* line 160, ../sass/custom.scss */
+#captcha summary {
+  display: none;
+}
+
+/* line 166, ../sass/custom.scss */
+#block-footer .field--name-body {
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 170, ../sass/custom.scss */
+#block-footer .field--name-body p {
+  display: inline-block;
+}
+/* line 172, ../sass/custom.scss */
+#block-footer .field--name-body p:nth-child(2n) {
+  color: #ff8000;
+  padding: 0 10px;
+}
+
+/* line 181, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .form-item {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+/* line 185, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .form-item .error {
+  width: 49%;
+}
+/* line 188, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .form-item input {
+  width: 49%;
+}
+/* line 191, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .form-item label {
+  width: 30%;
+  display: inline-block;
+}
+/* line 195, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .form-item textarea.error {
+  width: 82%;
+}
+/* line 198, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .form-item textarea {
+  width: 82%;
+}
+/* line 202, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .form-actions {
+  width: 25%;
+  margin: auto;
+}
+/* line 205, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .form-actions input {
+  width: 75%;
+}
+/* line 209, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .captcha {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+/* line 213, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .captcha .form-item {
+  width: 100%;
+  padding: 0px;
+}
+/* line 216, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .captcha .form-item label {
+  display: none;
+  width: 100%;
+}
+/* line 220, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .captcha .form-item span {
+  display: inline-block;
+  width: 30%;
+}
+/* line 224, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .captcha .form-item input {
+  width: 49%;
+}
+/* line 227, ../sass/custom.scss */
+#webform-submission-contact-form-ajax .captcha .form-item .description {
+  width: 85%;
+}
+
+/* line 235, ../sass/custom.scss */
+#block-views-block-footer-menu-block-1 .view-content {
+  text-align: center;
+  font-size: 14px;
+}
+/* line 238, ../sass/custom.scss */
+#block-views-block-footer-menu-block-1 .view-content .views-row {
+  display: inline-block;
+}
+/* line 240, ../sass/custom.scss */
+#block-views-block-footer-menu-block-1 .view-content .views-row .views-field-title {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+/* line 244, ../sass/custom.scss */
+#block-views-block-footer-menu-block-1 .view-content .views-row .views-field-title:hover {
+  color: #ff8000;
+}
+/* line 248, ../sass/custom.scss */
+#block-views-block-footer-menu-block-1 .view-content .views-row .views-field-body {
+  display: none;
+}
+
+/* line 256, ../sass/custom.scss */
+.ui-dialog .field-content {
+  width: 75%;
+  margin: auto;
+  text-align: left;
+}
+/* line 260, ../sass/custom.scss */
+.ui-dialog .field-content p {
+  text-align: left;
+  text-transform: none;
+  font-size: 14px;
+}
+/* line 265, ../sass/custom.scss */
+.ui-dialog .field-content p:nth-child(1) img {
+  width: 300px !important;
+}
+/* line 269, ../sass/custom.scss */
+.ui-dialog .field-content p img {
+  width: auto !important;
+  height: auto !important;
+}
+
+@media only screen and (max-width: 1330px) {
+  /* line 279, ../sass/custom.scss */
+  #block-webform {
+    margin-bottom: 50px;
+  }
+  /* line 282, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .form-item {
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+  }
+  /* line 286, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .form-item input {
+    width: 49%;
+  }
+  /* line 289, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .form-item label {
+    width: 30%;
+    display: inline-block;
+  }
+  /* line 293, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .form-item textarea {
+    width: 82%;
+  }
+  /* line 297, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form #edit-actions {
+    width: 25%;
+    margin: auto;
+  }
+  /* line 300, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form #edit-actions input {
+    width: 75%;
+  }
+  /* line 304, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .captcha {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  /* line 308, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .captcha .form-item {
+    width: 100%;
+    padding: 0px;
+  }
+  /* line 311, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .captcha .form-item label {
+    display: none;
+    width: 100%;
+  }
+  /* line 315, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .captcha .form-item span {
+    display: inline-block;
+    width: 30%;
+  }
+  /* line 319, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .captcha .form-item input {
+    width: 49%;
+  }
+  /* line 322, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .captcha .form-item .description {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /* line 332, ../sass/custom.scss */
+  body {
+    font-family: 'Josefin Sans', Times, serif;
+    font-size: 20px;
+    margin: -16px auto;
+    padding: 0;
+    border: 0;
+    background-color: #ffffff;
+    background-image: none;
+  }
+
+  /* line 341, ../sass/custom.scss */
+  .angle-view {
+    display: inline-flex;
+    width: 75%;
+    padding-left: 15%;
+  }
+}
+@media only screen and (max-width: 980px) {
+  /* line 351, ../sass/custom.scss */
+  #block-footer .field--name-body p {
+    display: flow-root;
+    line-height: 10px;
+  }
+  /* line 354, ../sass/custom.scss */
+  #block-footer .field--name-body p:nth-child(2n) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 370, ../sass/custom.scss */
+  .ui-dialog .field-content p:nth-child(1) img {
+    width: 300px !important;
+  }
+  /* line 374, ../sass/custom.scss */
+  .ui-dialog .field-content p img {
+    width: 90% !important;
+  }
+
+  /* line 381, ../sass/custom.scss */
+  #block-highlightblock {
+    margin-top: 100px;
+  }
+
+  /* line 387, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .form-item input {
+    width: 79%;
+  }
+  /* line 390, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .form-item label {
+    width: 50%;
+    display: inline-block;
+  }
+  /* line 395, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form #edit-actions {
+    width: 50%;
+    margin: auto;
+  }
+  /* line 398, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form #edit-actions input {
+    width: 100%;
+  }
+  /* line 402, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .captcha {
+    width: 100%;
+  }
+  /* line 404, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .captcha .form-item {
+    width: 95%;
+  }
+  /* line 406, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .captcha .form-item label {
+    display: none;
+  }
+  /* line 409, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .captcha .form-item input {
+    width: 48% !important;
+  }
+  /* line 412, ../sass/custom.scss */
+  #block-webform #webform-submission-contact-add-form .captcha .form-item .description {
+    width: 90%;
+  }
+}

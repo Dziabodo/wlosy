@@ -1,0 +1,24 @@
+uuid: 3fff465b-1faa-4cd2-995e-d7046cc3dd4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.footer_menu
+  module:
+    - views
+  theme:
+    - selex_theme
+id: views_block__footer_menu_block_1
+theme: selex_theme
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:footer_menu-block_1'
+settings:
+  id: 'views_block:footer_menu-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

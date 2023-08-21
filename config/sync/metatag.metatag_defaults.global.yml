@@ -1,0 +1,13 @@
+uuid: 18fb74d5-6d4a-4409-b68a-35425ab3e81b
+langcode: pl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  title: '[current-page:title] | [site:name]'
+  keywords: 'Selex Polska, Maszyna do przeszczepu włosów, Maszyna do transplantacji włosów, Urządzenie do przeszczepu włosów, Urządzenie do transplantacji włosów, Producent urządzeń do transplantacji włosów, '
+  description: "Selex Polska jest firmą opartą na nowoczesnych systemach zarządzania i innowacyjności.\r\n\r\nGłównym obszarem działania jest branża medyczna, która stanowi kluczową aktywność działalności.\r\n\r\nFirma jest jedynym polskim i europejskim producentem maszyn do wspomagania zabiegu przeszczepu włosów metodą FUE (Follicular Unit Extraction)  – maszyny do przeszczepu włosów.\r\n\r\nOlbrzymie doświadczenie w przemyśle i wysoko wyspecjalizowana kadra kreująca trendy oraz tworząca i wdrażająca projekty."

@@ -1,0 +1,22 @@
+uuid: 6242f95e-0b6d-402a-8731-fc3b6ca1d7a0
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - selex_theme
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: selex_theme_content
+theme: selex_theme
+region: content
+weight: 2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

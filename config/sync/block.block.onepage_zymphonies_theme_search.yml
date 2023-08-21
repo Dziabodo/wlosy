@@ -1,0 +1,23 @@
+uuid: 6c7cd355-9cf7-4d15-802a-e20506f704cf
+langcode: pl
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: wV7vnkR8_HuEpSRt8_7eFO3XeEn4PF3nzrJ91Ev7Mag
+id: onepage_zymphonies_theme_search
+theme: onepage_zymphonies_theme
+region: auto_hidden_block
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

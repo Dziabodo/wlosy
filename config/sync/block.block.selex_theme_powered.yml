@@ -1,0 +1,22 @@
+uuid: fe812f9d-6bfb-4d2d-b35c-0f57e7a733b1
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - selex_theme
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: selex_theme_powered
+theme: selex_theme
+region: sidebar_first
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

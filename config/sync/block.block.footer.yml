@@ -1,0 +1,25 @@
+uuid: 30440509-0581-40e2-b06a-f2efef747b7a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5905c86d-a568-4006-8ff9-bcc6c000777c'
+  module:
+    - block_content
+  theme:
+    - selex_theme
+id: footer
+theme: selex_theme
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:5905c86d-a568-4006-8ff9-bcc6c000777c'
+settings:
+  id: 'block_content:5905c86d-a568-4006-8ff9-bcc6c000777c'
+  label: Footer
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

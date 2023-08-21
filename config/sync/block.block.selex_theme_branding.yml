@@ -1,0 +1,25 @@
+uuid: 60ef93fc-1f17-494d-819d-a1ab6af7dcae
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - selex_theme
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: selex_theme_branding
+theme: selex_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

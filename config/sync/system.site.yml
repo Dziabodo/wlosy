@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: pl
+uuid: 14af50a8-4a0a-4c6d-983c-fa7f33e2c055
+name: 'Selex Polska Daniel Korbus'
+mail: biuro@selexpolska.com
+slogan: 'Technologia wspomagająca zabieg przeszczepu włosów metodą FUE. Maszyny przeznaczone do wspomagania zabiegu translpantacji. Producent urządzeń skierowanych dla branży medycznej.'
+page:
+  403: /front
+  404: /front
+  front: /front
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: pl
