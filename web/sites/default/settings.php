@@ -765,32 +765,10 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  *
  * Keep this code block at the end of this file to take full effect.
  */
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
-$databases['default']['default'] = array (
-  'database' => 'selex_selex',
-  'username' => 'selex_selex',
-  'password' => 'AxM9KN-aF1-(7tpT',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-//$databases['default']['default'] = array (
-//  'database' => 'karolwec_selex',
-//  'username' => 'karolwec_selex',
-//  'password' => 'zaq12wsx',
-//  'prefix' => '',
-//  'host' => 'localhost',
-//  'port' => '3306',
-//  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-//  'driver' => 'mysql',
-//);
+
+
 $settings['config_sync_directory'] = './../config/sync';
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 'On');
-error_reporting(E_ALL & ~E_DEPRECATED & ~E_STRICT);
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}
