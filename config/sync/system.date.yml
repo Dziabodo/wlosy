@@ -9,4 +9,3 @@ timezone:
     configurable: true
     default: 0
     warn: false
-langcode: pl

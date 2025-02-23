@@ -6,6 +6,7 @@ use Drupal\Core\Entity\ContentEntityInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Language\LanguageManager;
 use Drupal\file\Entity\File;
+use Drupal\Core\Url;
 
 /**
  * Class FetchHighlightNodes.
@@ -52,7 +53,8 @@ class FetchHighlightNodes {
   public function getImages() {
     $images = [];
     foreach ($this->highlighNode->field_images as $key => $image) {
-      $images[$key] = file_create_url(current($image->entity->field_header_images->referencedEntities())->getFileUri());
+
+      $images[$key] =\Drupal::service('file_url_generator')->generateString(current($image->entity->field_header_images->referencedEntities())->getFileUri());
     }
     return array_reverse($images);
   }
